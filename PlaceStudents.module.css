@@ -1,0 +1,32 @@
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .slide-track {
+    display: flex;
+    width: calc(300px * 28); /* 300px is card width * 2 times number of cards */
+    animation: scroll 40s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 6)); /* Half of total width */
+    }
+  }
+  
+  .slide {
+    
+    width: 300px;
+    padding: 0 20px;
+    flex-shrink: 0;
+  }
+  
+  /* .slide-track:hover {
+    animation-play-state: paused;
+  } */
