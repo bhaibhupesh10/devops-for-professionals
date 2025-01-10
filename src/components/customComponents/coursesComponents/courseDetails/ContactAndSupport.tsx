@@ -100,31 +100,31 @@ export default function QueryForm() {
   };
 
   return (
-    <div className="mx-auto md:p-6 bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="contactus">
-      <div className="   flex max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] p-8 md:rounded-lg">
+    <div className="mx-auto md:p-6 bg-gradient-to-br from-gray-50 via-black-50 to-gray-100" id="contactus">
+      <div className="   flex max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] p-8 md:rounded-lg">
         {/* Stats Section */}
         <div className="flex-1 space-y-8">
           <h2 className="text-3xl font-bold text-white">We have successfully served</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-            <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
-              <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+            <div className="bg-gray-800/50 p-6 rounded-lg space-y-2">
+              <div className="bg-gray-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-white">11,00,000+</div>
               <div className="text-white/80">Student&apos;s Lives Changed</div>
             </div>
 
-            <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
-              <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+            <div className="bg-gray-800/50 p-6 rounded-lg space-y-2">
+              <div className="bg-gray-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
                 <ArrowUpRight className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-white">450+</div>
               <div className="text-white/80">Companies Benefited</div>
             </div>
 
-            <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
-              <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+            <div className="bg-gray-800/50 p-6 rounded-lg space-y-2">
+              <div className="bg-gray-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
                 <Globe className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-white">160+</div>
@@ -200,7 +200,7 @@ export default function QueryForm() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-[#ff0000] text-white py-2 rounded hover:bg-red-700"
+              className="w-full bg-[#292929] text-white py-2 rounded hover:bg-gray-700"
             >
               {loading ? "Submitting..." : "Submit →"}
             </button>

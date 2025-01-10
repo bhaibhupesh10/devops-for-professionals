@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
   const isLongText = words.length > 70;
 
   return (
-    <div className="relative bg-[#faf7f4] overflow-hidden px-4 py-12 md:py-12">
+    <div className="relative bg-gray-100 overflow-hidden px-4 py-12 md:py-12">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="relative lg:col-span-1 order-2 lg:order-1 flex-shrink-0 h-96" aria-hidden="true">
@@ -71,8 +71,8 @@ export default function TestimonialsSection() {
                   <Avatar
                     className={`border-4 shadow-lg transition-transform hover:scale-110 ${
                       currentIndex === index
-                        ? 'border-red-500 scale-110'
-                        : 'border-white hover:border-red-200'
+                        ? 'border-gray-500 scale-110'
+                        : 'border-white hover:border-gray-200'
                     }`}
                     style={{ 
                       width: testimonial.position.size, 

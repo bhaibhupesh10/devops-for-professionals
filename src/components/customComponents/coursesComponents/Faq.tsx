@@ -285,7 +285,7 @@ export default function Faq() {
   const [selectedItem, setSelectedItem] = useState<keyof typeof faqContent>("curriculum");
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100">
     <div className="container mx-auto max-w-6xl px-4 py-12 ">
       {/* Header */}
       <h1 className="sm:text-2xl lg:text-3xl font-bold mb-8 sm:mb-12 text-center sm:text-left">
@@ -300,7 +300,7 @@ export default function Faq() {
             <div
               key={key}
               className={`p-4 rounded-lg border shadow-sm cursor-pointer transition-all duration-300 
-              ${selectedItem === key ? "bg-red-200 border-red-500 text-red-600" : "bg-white text-gray-600"}`}
+              ${selectedItem === key ? "bg-gray-100 border-gray-500 text-gray-600" : "bg-white text-gray-600"}`}
               onClick={() => setSelectedItem(key as keyof typeof faqContent)}
             >
               <h2 className="text-md md:text-md font-medium">

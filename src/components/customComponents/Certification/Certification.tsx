@@ -6,7 +6,7 @@ import certimg from "../../../../public/assets/Certificate/Certificate.jpeg"
 
 export default function Certification() {
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 mx-auto">
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-12    md:text-center">
@@ -18,7 +18,7 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center bg-[#ff0000]  font-bold">1</span>
+                <span className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center bg-[#292929]  font-bold">1</span>
                 DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
@@ -45,8 +45,8 @@ export default function Certification() {
 
           {/* Center Divider */}
           <div className="hidden md:flex flex-col items-center gap-4">
-            <div className="w-[2px] h-[400px] bg-gradient-to-b from-transparent via-red-200 to-transparent"></div>
-            <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">
+            <div className="w-[2px] h-[400px] bg-gradient-to-b from-transparent via-gray-100 to-transparent"></div>
+            <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-[#ff0000]  font-bold">
               &
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">2</span>
+                <span className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-[#ff0000]  font-bold">2</span>
                 Internship Certificate
               </h2>
               <p className="text-gray-600 pl-10">

@@ -14,15 +14,15 @@ export default function CourseCareerModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1])
 
   return (
-    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 ">
       
       <div className="mx-auto max-w-6xl">
         
       {/* Mobile View */}
 <div className="md:hidden">
-  <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] rounded-xl p-4 relative"> {/* Added relative positioning */}
+  <div className="bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] rounded-xl p-4 relative"> {/* Added relative positioning */}
     {/* Added Mobile Number */}
-    <div className="absolute -top-2 left-4 w-8 h-8 bg-red-800 rounded-full flex items-center justify-center">
+    <div className="absolute -top-2 left-4 w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
       <span className="text-white font-bold text-lg">2</span>
     </div>
 
@@ -31,7 +31,7 @@ export default function CourseCareerModule() {
       <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
   <Badge 
     variant="secondary" 
-    className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
+    className="h-6 pt-2 pb-2 bg-[#4a4a4a] text-sm text-[#4a4a4a] border-none shrink-0"
   >
     <CalendarDays className=" mt-4 mb-4 h-6"/> 3 Months
   </Badge>
@@ -75,13 +75,13 @@ export default function CourseCareerModule() {
         </div>
 
         <div className="hidden md:block">
-  <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
+  <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative">
     {/* Badge in top right corner */}
     <div className="absolute top-0 right-0">
    
       <Badge 
         variant="secondary" 
-        className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
+        className="h-10 px-4 p-4 bg-[#4a4a4a] text-sm text-white border-none shrink-0"
       >
        <CalendarDays className="mr-2 mt-4 mb-4   h-6"/> 1 Months
       </Badge>

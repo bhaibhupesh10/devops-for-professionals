@@ -4,7 +4,7 @@ import { Check } from 'lucide-react'
 
 export default function   CoursePricingSection() {
   return (
-    <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 " id="participatenow">
+    <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-gray-100 " id="participatenow">
       <div className="max-w-6xl mx-auto md:p-6">
       <div className="mb-6">  <h1 className="text-3xl md:text-3xl font-bold text-gray-800 px-2">
 
@@ -34,19 +34,19 @@ export default function   CoursePricingSection() {
 
             <div className="space-y-3 mb-6">
               <div className="flex items-start gap-2">
-                <Check className="h-5 w-5 text-red-400 mt-1" />
+                <Check className="h-5 w-5 text-gray-400 mt-1" />
                 <p className="text-gray-600">
                   Avail the discounted price of ₹ 25,000 and save a total of ₹ 10,000
                 </p>
               </div>
               <div className="flex items-start gap-2">
-                <Check className="h-5 w-5 text-red-400 mt-1" />
+                <Check className="h-5 w-5 text-gray-400 mt-1" />
                 <p className="text-gray-600">The launch offer expires in 24 hours</p>
               </div>
             </div>
             <a href="https://rzp.io/rzp/R36lbP1" target="blank"> 
 <div className=" flex w-full mx-auto">
-           <Button className="md:w-1/2 sm:w-full mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
+           <Button className="md:w-1/2 sm:w-full mx-auto bg-[#292929] hover:bg-[#676565] hover:shadow-md hover:shadow-black text-white py-6">
               Yes! I want this insane deal for
               <br />₹ 25,000 + taxes
               
@@ -76,8 +76,8 @@ export default function   CoursePricingSection() {
                   "And much more…"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-2">
-                    <div className="bg-red-100 rounded-sm p-0.5">
-                      <Check className="h-4 w-4 text-red-500" />
+                    <div className="bg-gray-100 rounded-sm p-0.5">
+                      <Check className="h-4 w-4 text-gray-100" />
                     </div>
                     <span className="text-gray-700">{item}</span>
                   </div>
@@ -97,8 +97,8 @@ export default function   CoursePricingSection() {
 
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-2">
-                    <div className="bg-red-100 rounded-sm p-0.5">
-                      <Check className="h-4 w-4 text-red-500" />
+                    <div className="bg-gray-100 rounded-sm p-0.5">
+                      <Check className="h-4 w-4 text-gray-100" />
                     </div>
                     <span className="text-gray-700">{item}</span>
                   </div>

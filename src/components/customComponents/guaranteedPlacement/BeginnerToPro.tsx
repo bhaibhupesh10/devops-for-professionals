@@ -4,7 +4,7 @@ import { BookOpenCheck, ClipboardCheck, Presentation} from 'lucide-react'
 
 export default function BeginnerToPro() {
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 mx-auto">
     <div className="container mx-auto px-4 py-8 md:py-12  max-w-6xl">
       <div className=" text-3xl font-bold pb-8">How will you get <span className="text-[#ff0000]">guaranteed placement?</span></div>
       <Card className="p-4 sm:p-6 md:p-8 max-w-6xl mx-auto">
@@ -26,8 +26,8 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               <Card className="w-full">
                 <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
-                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <BookOpenCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-gray-100 flex items-center justify-center">
+                    <BookOpenCheck className="h-5 w-5 md:h-6 md:w-6 text-[#4a4a4a]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
                    <span className="font-bold">300+ Hours </span> <br/>  of Learning
@@ -37,8 +37,8 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
 
               <Card className="w-full">
                 <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
-                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <ClipboardCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-gray-100 flex items-center justify-center">
+                    <ClipboardCheck className="h-5 w-5 md:h-6 md:w-6 text-[#4a4a4a]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
                   <span className="font-bold">22+ years  </span> <br/> of experience level mentor
@@ -48,8 +48,8 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
 
               <Card className="w-full sm:col-span-2 md:col-span-1">
                 <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
-                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <Presentation className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-gray-100 flex items-center justify-center">
+                    <Presentation className="h-5 w-5 md:h-6 md:w-6 text-[#4a4a4a]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
                    <span className="font-bold">20+ Capstone</span> Industry Level Projects

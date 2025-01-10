@@ -4,7 +4,7 @@ import {  GraduationCap, Briefcase, Code } from 'lucide-react'
 
 export default function ProgramCohorts() {
   return (
-    <div className=" bg-gradient-to-br from-gray-50 via-black-50 to-red-50 py-4" id="programcohorts">
+    <div className=" bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 py-4" id="programcohorts">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">
@@ -82,7 +82,7 @@ export default function ProgramCohorts() {
       {/* Action button - same for both mobile and desktop */}
       <div>
         <a href="https://rzp.io/rzp/R36lbP1" target="blank">
-          <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
+          <Button className="w-full sm:w-auto bg-[#4a4a4a] hover:shadow-white hover:shadow-md hover:bg-[#4a4a4a]">
           Apply Now 
           </Button>
         </a>
@@ -102,26 +102,26 @@ export default function ProgramCohorts() {
             </h3>
             <div className="space-y-4">
               <div className="flex gap-3">
-                <GraduationCap className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <GraduationCap className="w-5 h-5 text-gray-100 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
                 </p>
               </div>
               <div className="flex gap-3">
-                <Briefcase className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <Briefcase className="w-5 h-5 text-gray-100 flex-shrink-0" />
                 <p className="text-sm text-black">
                 No prior knowledge required  learn everything from Basics to Advanced levels.
                 </p>
               </div>
               <div className="flex gap-3">
-                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <Code className="w-5 h-5 text-gray-100 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Ideal for those curious to learn new skills and work on industry-level projects.
                 </p>
               </div>
 
               <div className="flex gap-3">
-                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <Code className="w-5 h-5 text-gray-100 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Minimum 90% attendance is mandatory to qualify for the placement.
                 </p>
@@ -141,7 +141,7 @@ export default function ProgramCohorts() {
                 "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
                 <div key={index} className="flex  items-cente gap-2">
-                  <div className="flex-shrink-0 w-2 h-2 mt-2 bg-red-500 rounded-full" />
+                  <div className="flex-shrink-0 w-2 h-2 mt-2 bg-gray-100 rounded-full" />
                   <span className="text-sm text-black">{role}</span>
                 </div>
               ))}

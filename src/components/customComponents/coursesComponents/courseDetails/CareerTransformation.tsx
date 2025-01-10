@@ -200,7 +200,7 @@ export default function CareerTransformation() {
   const testimonialFull = testimonialWords.join(' ');
 
   return (
-    <div className="w-full bg-gradient-to-r from-gray-50 to-red-50" id="careertransformation"> 
+    <div className="w-full bg-gradient-to-r from-gray-50 to-gray-100" id="careertransformation"> 
       <section className="max-w-6xl mx-auto py-12 px-6">
         <div className="container">
           <h1 className="text-3xl font-bold tracking-tighter md:p-0 mb-8">
@@ -245,7 +245,7 @@ export default function CareerTransformation() {
               <div className="flex items-center justify-between w-full gap-4 px-4">
                 {/* Before Card */}
                 <Card className="p-4 border border-blue-400 relative flex-1 min-w-[50px]">
-                  <span className="absolute -top-3 right-4 bg-[#ff0000] text-white px-3 py-1 rounded-full text-xs font-medium z-10">
+                  <span className="absolute -top-3 right-4 bg-[#4a4a4a] text-white px-3 py-1 rounded-full text-xs font-medium z-10">
                     BEFORE
                   </span>
                   <div className="space-y-2">

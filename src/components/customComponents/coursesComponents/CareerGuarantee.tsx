@@ -9,7 +9,7 @@ import { Download } from 'lucide-react';
 
 const CareerGuarantee = () => {
   return (
-    <div className="px-4 py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="px-4 py-12 bg-gradient-to-br from-gray-50 via-black-50 to-gray-100">
       <div className='max-w-6xl mx-auto'>
         <div className="relative w-full overflow-hidden rounded-xl">
           {/* Mobile View Container */}
@@ -35,7 +35,7 @@ const CareerGuarantee = () => {
                 </h2>
                 <Button 
                   variant="default" 
-                  className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+                  className="bg-[#292929] hover:bg-gray-100 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                 >
                   Apply Now
                   
@@ -66,7 +66,7 @@ const CareerGuarantee = () => {
                 </h2>
                 <Button 
                   variant="default" 
-                  className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+                  className="bg-[#292929] hover:bg-gray-100 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                 >
                   Apply Now
                   

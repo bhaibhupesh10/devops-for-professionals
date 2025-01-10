@@ -94,7 +94,7 @@ const CompaniesCarousel = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100">
       <div className="relative overflow-hidden max-w-7xl mx-auto">
         <div className="text-3xl font-bold mx-auto text-center pt-20 md:pt-8 lg:pt-8">
           1356+ Leading companies hire

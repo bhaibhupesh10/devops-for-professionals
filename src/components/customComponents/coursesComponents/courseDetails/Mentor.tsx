@@ -105,7 +105,7 @@ const MentorProfile = () => {
   ];
 
   return (
-    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50' id="mentor">
+    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-gray-100' id="mentor">
     <div ref={profileRef} className="max-w-6xl pt-12 mx-auto md:p-6 lg:px-8">
     <h1 className="text-center mb-4 font-bold  text-lg sm:text-3xl text-black pb-4">
      
@@ -135,8 +135,8 @@ const MentorProfile = () => {
           {/* Mentor Details Card */}
           <div className="bg-blue-50 rounded-xl p-6 shadow-sm border border-blue-100">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-              <span className="text-[#ff0000] text-xs md:text-sm  font-medium bg-red-100/50 px-3 py-1 rounded-full">
+              <div className="w-2 h-2 rounded-full bg-gray-500 animate-pulse"></div>
+              <span className="text-[#ff0000] text-xs md:text-sm  font-medium bg-gray-100/50 px-3 py-1 rounded-full">
                 Internationally Recognised Industry Expert
               </span>
             </div>

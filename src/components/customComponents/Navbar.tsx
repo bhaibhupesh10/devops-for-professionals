@@ -65,33 +65,33 @@ const Navbar: React.FC = () => {
         <nav className="hidden lg:flex space-x-6">
           <ul className="flex space-x-4">
             <li>
-              <a href="#hero" className="text-black hover:text-[#ff0000]">
+              <a href="#hero" className="text-black hover:text-[#4a4a4a]">
                 Home
               </a>
             </li>
             <li>
-              <a href="#mentor" className="text-black hover:text-[#ff0000]">
+              <a href="#mentor" className="text-black hover:text-[#4a4a4a]">
               About Us 
 
               </a>
             </li>
             <li>
-              <a href="#trainingcontent" className="text-black hover:text-[#ff0000]">
+              <a href="#trainingcontent" className="text-black hover:text-[#4a4a4a]">
               Training Content
               </a>
             </li>
             <li>
-              <a href="#projects" className="text-black hover:text-[#ff0000]">
+              <a href="#projects" className="text-black hover:text-[#4a4a4a]">
               Projects
               </a>
             </li>
             <li>
-              <a href="#placements" className="text-black hover:text-[#ff0000]">
+              <a href="#placements" className="text-black hover:text-[#4a4a4a]">
               Placements 
               </a>
             </li>
             <li>
-              <a href="#careertransformation" className="text-black hover:text-[#ff0000]">
+              <a href="#careertransformation" className="text-black hover:text-[#4a4a4a]">
               Career Transition
 
               </a>
@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
         {/* Call to Action Button */}
         <a
           href="https://rzp.io/rzp/R36lbP1" target="blank"
-          className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
+          className="hidden lg:block bg-[#4a4a4a] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           Apply Now
         </a>
@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#hero"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
             Home
@@ -136,7 +136,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#mentor"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
            About Us 
@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#trainingcontent"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
             Training Content
@@ -154,7 +154,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#projects"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
               Projects
@@ -163,7 +163,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#placements"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
             Placements 
@@ -172,7 +172,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#careertransformation"
-            className="block hover:text-red-600"
+            className="block hover:text-gray-100"
             onClick={closeMobileMenu}
           >
              Career Transition 
@@ -181,7 +181,7 @@ const Navbar: React.FC = () => {
       </ul>
       <a
         href="#participatenow"
-        className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
+        className="block mt-4 bg-gray-100 text-white px-4 py-2 rounded-lg hover:bg-gray-100 text-center"
         onClick={closeMobileMenu}
       >
         Apply Now

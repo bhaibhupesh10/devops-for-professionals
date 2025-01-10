@@ -59,9 +59,9 @@ function CourseCarousel() {
   const secondRowLogosLoop = [...secondRowLogos, ...secondRowLogos];
 
   return (
-    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-100">
       <div className="max-w-6xl mx-auto">
-        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
+        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative">
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
             <div className="relative w-20 h-24">
@@ -74,7 +74,7 @@ function CourseCarousel() {
           </div>
 
           {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
             <span className="text-white font-bold text-lg">4</span>
           </div>
 

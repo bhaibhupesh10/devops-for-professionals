@@ -50,7 +50,7 @@ const Analyst: React.FC = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 px-4 py-8 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 px-4 py-8 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-8">
         {/* Header */}
         <div className="space-y-2">
@@ -67,11 +67,11 @@ const Analyst: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Salary Chart */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-gray-200 border-gray-200">
               Average Salaries
             </span>
             <div className="space-y-4 p-4">
-              <span className="text-[#ff0000] md:text-sm  font-medium bg-red-100/50 px-3 py-1 rounded-full animate-pulse">In 2025</span>
+              <span className="text-[#ff0000] md:text-sm  font-medium bg-gray-100/50 px-3 py-1 rounded-full animate-pulse">In 2025</span>
               <div className="relative sm:h-64">
                 {/* Bar Chart for Salary */}
                 <ChartComponent data={chartData.salaryData} label={salary.label} />
@@ -81,7 +81,7 @@ const Analyst: React.FC = () => {
 
           {/* Companies */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-gray-200 border-gray-200">
               Companies Hiring
             </span>
             <div className="grid grid-cols-2 p-4 sm:grid-cols-3 gap-4 pt-10 sm:gap-6">
@@ -121,8 +121,8 @@ const Analyst: React.FC = () => {
                 ))}
 
                 {/* Center search icon */}
-                <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center relative z-10">
-                  <Search className="w-5 h-5 text-red-500" />
+                <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center relative z-10">
+                  <Search className="w-5 h-5 text-gray-100" />
                 </div>
 
                 {/* Right side icons */}
@@ -139,7 +139,7 @@ const Analyst: React.FC = () => {
               {/* Stats Section with Curved Background */}
               <div className="relative pt-8">
                 <div
-                  className="absolute inset-x-0  top-0 h-40 bg-red-50 rounded-full scale-[1.3]"
+                  className="absolute inset-x-0  top-0 h-40 bg-gray-50 rounded-full scale-[1.3]"
                   style={{
                     borderRadius: "200%/400% 400% 0 0",
                     transform: "scaleX(0.9)",
